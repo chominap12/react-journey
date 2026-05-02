@@ -87,7 +87,7 @@ Used to store and update data in a component.
 
 ## 📌 Project's list:
 
-**Counter-app**
+***Counter-app***
 
 This is a simple application built as my first React project.
 
@@ -95,7 +95,10 @@ It uses the **useState hook** to manage the counter state. The number can be upd
 
 This project helped me understand the basics of state management in React.
 
+**Project's output**
+
 ![image alt](https://github.com/chominap12/react-journey/blob/62e59b8a4013ef6aff58c5153ee8e0d3c7db91c4/react-project/counter-app/counter-app-ss.png)
+
 
 
 ---
