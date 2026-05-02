@@ -87,7 +87,7 @@ Used to store and update data in a component.
 
 ## 📌 Project's list:
 
-***Counter-app***
+## 1. Counter-app
 
 This is a simple application built as my first React project.
 
