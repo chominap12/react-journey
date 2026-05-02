@@ -1,5 +1,5 @@
 
-Welcome to my **React learning repository**.  
+## Welcome to my **React learning repository**.  
 This project documents my step-by-step journey of learning React through **project-based learning**, focusing on building real applications while understanding core concepts deeply.
 
 ---
@@ -66,10 +66,15 @@ Used to render multiple elements dynamically using `.map()` with unique keys for
 Hooks are special functions in React that let you use state and other React features inside functional components.
 
 **Common Hooks**
+
 *useState*
+
 Used to store and update data in a component.
 
 👉 Example: counter, form input, toggle
+
+
+---
  
 ## 🛠️ Tech Stack
 
