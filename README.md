@@ -25,6 +25,36 @@ It is designed to strengthen my fundamentals in React and prepare me for real-wo
 
 ---
 
+## ⚙️ Setting Up the React App
+
+Follow these steps to create and run the project locally:
+
+### 1. Install Node.js
+Make sure you have Node.js installed.  
+You can download it from: https://nodejs.org
+
+
+### 2. Create React App
+
+Use the following command to create a new React project:
+
+npm create vite@latest my-react-app
+
+### 3. Navigate to Project folder
+
+cd my-react-app
+
+### 4. Download dependencies
+ 
+npm install
+
+### 4. Start the Development Server
+
+npm run dev
+
+---
+
+
 ## 📚 Core Concepts Covered
 
 ### 1. JSX (JavaScript XML)
@@ -87,7 +117,7 @@ Used to store and update data in a component.
 
 ## 📌 Project's list:
 
-## 1. Counter-app
+### 1. Counter-app
 
 This is a simple application built as my first React project.
 
