@@ -95,5 +95,7 @@ It uses the **useState hook** to manage the counter state. The number can be upd
 
 This project helped me understand the basics of state management in React.
 
+![image alt](https://github.com/chominap12/react-journey/blob/62e59b8a4013ef6aff58c5153ee8e0d3c7db91c4/react-project/counter-app/counter-app-ss.png)
+
 
 ---
