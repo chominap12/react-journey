@@ -7,22 +7,14 @@ import './App.css'
 
 function App() {
   const [count,setcount]= useState(0);
-  
+ 
   return (
     <div>
        <h1>Counter App</h1>
-       <button onClick={setcount}>+</button>
-
-
-
-    </div>
-      
-     
-       
-              
-             
-          
-    
+       <h2>{count}</h2>
+       <button onClick={() => setcount(count+ 1)}>+</button>
+       <button onClick = {()=>setcount(count - 1)}>-</button>
+    </div>  
   )
 }
 
