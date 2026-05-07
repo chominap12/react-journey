@@ -36,9 +36,29 @@ function App() {
     };
     
   return (
-    <div>
+     <div
+    style={{
+      backgroundColor: "#121212",
+      height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    }}
+  >
+    <div  style={{
+        backgroundColor: "#1e1e1e",
+        padding: "20px",
+        borderRadius: "15px",
+        width: "300px",
+      }}>
 
-      <h1>{input}</h1>
+      <h1 style={{
+          backgroundColor: "black",
+          color: "white",
+          padding: "15px",
+          borderRadius: "10px",
+          textAlign: "right",
+        }}>{input || 0}</h1>
       <div
         style={{
           display: "grid",
@@ -49,26 +69,27 @@ function App() {
        <button style={{padding:"15px"}} onClick={clear}>C</button>
        <button style={{padding:"15px"}} onClick={()=>handleClick("X")}>X</button>
        <button  style={{padding:"15px"}} onClick={()=>handleClick("%")}>%</button>
-       <button onClick={()=>handleClick("/")}>/</button>
+       <button style={{padding:"15px"}} onClick={()=>handleClick("/")}>/</button>
        
-       <button onClick={()=>handleClick("7")}>7</button>
-       <button onClick={()=> handleClick("8")}>8</button>
-       <button onClick={()=>handleClick("9")}>9</button>
-       <button onClick={()=> handleClick("*")}>*</button>
+       <button style={{padding:"15px"}} onClick={()=>handleClick("7")}>7</button>
+       <button style={{padding:"15px"}} onClick={()=> handleClick("8")}>8</button>
+       <button style={{padding:"15px"}} onClick={()=>handleClick("9")}>9</button>
+       <button style={{padding:"15px"}} onClick={()=> handleClick("*")}>*</button>
        
-        <button onClick={()=> handleClick("4")}>4</button>  
-        <button onClick={()=> handleClick("5")}>5</button> 
-        <button onClick={()=> handleClick("6")}>6</button>
-        <button onClick={()=> handleClick("-")}>-</button>
+        <button style={{padding:"15px"}} onClick={()=> handleClick("4")}>4</button>  
+        <button style={{padding:"15px"}} onClick={()=> handleClick("5")}>5</button> 
+        <button style={{padding:"15px"}} onClick={()=> handleClick("6")}>6</button>
+        <button style={{padding:"15px"}} onClick={()=> handleClick("-")}>-</button>
        
-        <button onClick={()=>handleClick("1")}>1</button>
-        <button onClick={()=> handleClick("2")}>2</button>
-        <button onClick={()=> handleClick("3")}>3</button>
-        <button onClick={()=> handleClick("+")}>+</button>
+        <button style={{padding:"15px"}} onClick={()=>handleClick("1")}>1</button>
+        <button style={{padding:"15px"}} onClick={()=> handleClick("2")}>2</button>
+        <button style={{padding:"15px"}} onClick={()=> handleClick("3")}>3</button>
+        <button style={{padding:"15px"}} onClick={()=> handleClick("+")}>+</button>
        
-        <button onClick={()=> handleClick("0")}>0</button>
-        <button onClick={()=> handleClick(".")}>.</button>
-        <button onClick={()=>handleClick("=")}>=</button>     
+        <button style={{padding:"15px"}} onClick={()=> handleClick("0")}>0</button>
+        <button style={{padding:"15px"}} onClick={()=> handleClick(".")}>.</button>
+        <button style={{padding:"15px"}} onClick={()=>handleClick("=")}>=</button>     
+    </div>
     </div>
     </div>
   )
