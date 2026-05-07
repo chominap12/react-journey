@@ -6,10 +6,12 @@ import './App.css'
 
 function App() {
       const [input,setInput]=useState("");
+      const [calculated,setCalculated] = useState(false)
        const handleClick =(value)=>{
         if(value=="="){
           try{
           setInput(eval(input).toString());
+          setCalculated(true);
         }catch{
               setInput("Error");
                 }
@@ -18,12 +20,20 @@ function App() {
           setInput((prev)=>prev.slice(0,-1));
          }
        else{
-        setInput((prev)=> prev+value);
-              }
-         }
+        if (calculated && !["+", "-", "*", "/", "%"].includes(value)) {
+        setInput(value);
+      } else {
+        setInput((prev) => prev + value);
+      }
+
+      setCalculated(false);
+          }
+              };
+         
     const clear = ()=>{
       setInput("");
-    }
+      setCalculated(false);
+    };
     
   return (
     <div>
