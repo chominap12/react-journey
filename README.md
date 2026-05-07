@@ -132,3 +132,7 @@ This project helped me understand the basics of state management in React.
 
 
 ---
+
+### 2. Calculator app
+
+
